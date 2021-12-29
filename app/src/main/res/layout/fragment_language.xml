@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Language">
+
+    <ImageView
+        android:id="@+id/auto_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avto_oillustration4"
+        app:layout_constraintBottom_toTopOf="@id/title_language"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/title_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/Title_language"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/language_russian"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auto_image" />
+
+    <LinearLayout
+        android:id="@+id/language_russian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_language">
+
+        <TextView
+            android:id="@+id/language_russian_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/language_ru_t"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/language_russian_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="15dp"
+            android:text="@string/language_ru"
+            android:textColor="@color/Gray_500"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/language_Uzb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/language_russian">
+
+        <TextView
+            android:id="@+id/language_uzb_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/language_uzb_t"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/language_uzb_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="15dp"
+            android:text="@string/language_uzb"
+            android:textColor="@color/Gray_500"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/language_English"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/language_Uzb">
+
+        <TextView
+            android:id="@+id/language_english_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/language_eng_t"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/language_english_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="15dp"
+            android:text="@string/language_eng"
+            android:textColor="@color/Gray_500"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/click_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/background_button"
+        android:padding="20sp"
+        android:text="@string/language_click_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/language_English"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <ImageView
+        android:id="@+id/checkmark_russian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25sp"
+        android:src="@drawable/ic_checkmark"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/language_russian"
+        app:layout_constraintRight_toRightOf="@id/language_russian"
+        app:layout_constraintTop_toTopOf="@id/language_russian"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/checkmark_uzb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25sp"
+        android:src="@drawable/ic_checkmark"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/language_Uzb"
+        app:layout_constraintRight_toRightOf="@id/language_Uzb"
+        app:layout_constraintTop_toTopOf="@id/language_Uzb"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/checkmark_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25sp"
+        android:src="@drawable/ic_checkmark"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/language_English"
+        app:layout_constraintRight_toRightOf="@id/language_English"
+        app:layout_constraintTop_toTopOf="@id/language_English"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

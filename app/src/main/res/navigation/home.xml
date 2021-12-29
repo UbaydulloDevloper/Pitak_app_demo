@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    app:startDestination="@id/editAccount">
+
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.developer.sms.Splash"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splash_to_language"
+            app:destination="@id/language" />
+    </fragment>
+    <fragment
+        android:id="@+id/language"
+        android:name="com.developer.sms.Language"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" >
+        <action
+            android:id="@+id/action_language_to_onBoarding"
+            app:destination="@id/onBoarding" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding"
+        android:name="com.developer.sms.OnBoarding"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding" >
+        <action
+            android:id="@+id/action_onBoarding_to_authentication"
+            app:destination="@id/authentication" />
+    </fragment>
+    <fragment
+        android:id="@+id/authentication"
+        android:name="com.developer.sms.Authentication"
+        android:label="fragment_authentication"
+        tools:layout="@layout/fragment_authentication" >
+        <action
+            android:id="@+id/action_authentication_to_verify"
+            app:destination="@id/verify" />
+    </fragment>
+    <fragment
+        android:id="@+id/verify"
+        android:name="com.developer.sms.Verify"
+        android:label="fragment_verify"
+        tools:layout="@layout/fragment_verify" >
+        <action
+            android:id="@+id/action_verify_to_SOMA"
+            app:destination="@id/SOMA" />
+    </fragment>
+    <fragment
+        android:id="@+id/SOMA"
+        android:name="com.developer.sms.SOMA"
+        android:label="fragment_s_o_m_a"
+        tools:layout="@layout/fragment_s_o_m_a" >
+        <action
+            android:id="@+id/action_SOMA_to_search2"
+            app:destination="@id/search2" />
+        <action
+            android:id="@+id/action_SOMA_to_orders2"
+            app:destination="@id/orders2" />
+        <action
+            android:id="@+id/action_SOMA_to_messages"
+            app:destination="@id/messages" />
+        <action
+            android:id="@+id/action_SOMA_to_account2"
+            app:destination="@id/account2" />
+    </fragment>
+    <fragment
+        android:id="@+id/search2"
+        android:name="com.developer.sms.Search"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/orders2"
+        android:name="com.developer.sms.Orders"
+        android:label="fragment_orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/messages"
+        android:name="com.developer.sms.Messages"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages" >
+        <action
+            android:id="@+id/action_messages_to_messageUsers"
+            app:destination="@id/messageUsers" />
+    </fragment>
+    <fragment
+        android:id="@+id/account2"
+        android:name="com.developer.sms.Account"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_account2_to_editAccount"
+            app:destination="@id/editAccount" />
+        <action
+            android:id="@+id/action_account2_to_settings"
+            app:destination="@id/settings" />
+        <action
+            android:id="@+id/action_account2_to_aboutApp"
+            app:destination="@id/aboutApp" />
+        <action
+            android:id="@+id/action_account2_to_balanceFragment"
+            app:destination="@id/balanceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageUsers"
+        android:name="com.developer.sms.MessageUsers"
+        android:label="fragment_message_users"
+        tools:layout="@layout/fragment_message_users" />
+    <fragment
+        android:id="@+id/editAccount"
+        android:name="com.developer.sms.EditAccount"
+        android:label="fragment_edit_account"
+        tools:layout="@layout/fragment_edit_account" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.developer.sms.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/aboutApp"
+        android:name="com.developer.sms.AboutApp"
+        android:label="fragment_about_app"
+        tools:layout="@layout/fragment_about_app" />
+    <fragment
+        android:id="@+id/balanceFragment"
+        android:name="com.developer.sms.BalanceFragment"
+        android:label="fragment_balance"
+        tools:layout="@layout/fragment_balance" />
+    <fragment
+        android:id="@+id/notifications"
+        android:name="com.developer.sms.Notifications"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>

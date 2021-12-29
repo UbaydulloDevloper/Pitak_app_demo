@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pitak</string>
+    <string name="Title_language">O\'zingizga qulay tilni tanlang</string>
+    <string name="language_ru_t">Russ tili</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_uzb_t">O’zbek tili</string>
+    <string name="language_uzb">Xorzir tanlangan</string>
+    <string name="language_eng_t">Ingliz tili</string>
+    <string name="language_eng">English</string>
+    <string name="language_click_btn">Tanlang va davom eting</string>
+    <string name="skip_onboard">O\'tkazib yuborish</string>
+    <string name="next_onboard">Keyingi</string>
+    <string name="click_onboard">Boshlash</string>
+    <string name="click_authentication">Kirish kodini yuboring</string>
+    <string name="about_authentication">Biz sizning telefon raqamingizga tasdiqlash kodi bilan SMS yuboramiz</string>
+    <string name="number_authentication">Sizning telefon raqamingiz</string>
+    <string name="title_authentication">Kirish yoki ro\'yxatdan o\'tish</string>
+    <string name="title_verify">Telefon raqamingizni tasdiqlang</string>
+    <string name="code_verify">Tasdiqlash kodi</string>
+    <string name="about_verify">+998 91 123 45 67 raqamiga yuborilgan SMS-dan tasdiqlash kodini kiriting.</string>
+    <string name="reset_verify">Kodni qayta yuboring</string>
+    <string name="click_verify">Tasdiqlash</string>
+    <string name="title_search">Qidirmoq</string>
+    <string name="title_orders">Buyurtmalar</string>
+    <string name="title_account">Account</string>
+    <string name="title_messages">Suhbatlar</string>
+    <string name="write_message">Xabar</string>
+    <string name="balance_text">Balans</string>
+    <string name="auto_text">Mashina</string>
+    <string name="setting_text">Sozlamalar</string>
+    <string name="about_app_text">Dastur haqida</string>
+    <string name="edit_account_btn_text">Profilni o\'zgartirish</string>
+    <string name="click_save_edits_text">Saqlash</string>
+    <string name="year_edit_text">kun.oy.yil</string>
+    <string name="your_year_hint_text">Tug\'ulgan kuningiz</string>
+    <string name="number_edit_text">Ism</string>
+    <string name="your_number_hint_text">Telefon nomer</string>
+    <string name="name_edit_text">Ism</string>
+    <string name="your_name_hint_text">Sizning ismingiz</string>
+    <string name="edit_title_text">Profilni o\'zgartirish</string>
+    <string name="sign_out">Hisobingizdan chiqing</string>
+    <string name="about_text">Toshkentdan viloyatlarga tez va qulay taksi xizmati</string>
+    <string name="notifications_text">Bildirishnomalar</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pitak</string>
+    <string name="Title_language">Choose your preferred language</string>
+    <string name="language_ru_t">Russian</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_uzb_t">Uzbek</string>
+    <string name="language_uzb">O’zbek(Lotin)</string>
+    <string name="language_eng_t">English</string>
+    <string name="language_eng">Current</string>
+    <string name="language_click_btn">Select and continue</string>
+    <string name="skip_onboard">Skip</string>
+    <string name="next_onboard">Next</string>
+    <string name="click_onboard">Begin</string>
+    <string name="title_authentication">Login or register</string>
+    <string name="number_authentication">Your phone number</string>
+    <string name="about_authentication">We will send an SMS with a confirmation code to your phone number</string>
+    <string name="click_authentication">Send login code</string>
+    <string name="click_verify">Confirm</string>
+    <string name="reset_verify">Send code again</string>
+    <string name="about_verify">Enter the confirmation code from SMS sent to the number +998 91 123 45 67</string>
+    <string name="code_verify">confirmation code</string>
+    <string name="title_verify">Confirm your phone number</string>
+    <string name="title_search">Search</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_account">Account</string>
+    <string name="title_messages">Chats</string>
+    <string name="write_message">Message</string>
+    <string name="about_app_text">About  App</string>
+    <string name="setting_text">Settings</string>
+    <string name="auto_text">Auto</string>
+    <string name="balance_text">Balance</string>
+    <string name="edit_account_btn_text">Edit  profile</string>
+    <string name="click_save_edits_text">Save</string>
+    <string name="year_edit_text">day.month.year</string>
+    <string name="your_year_hint_text">Date of Birth</string>
+    <string name="number_edit_text">Name</string>
+    <string name="your_number_hint_text">Number phone</string>
+    <string name="name_edit_text">Name</string>
+    <string name="your_name_hint_text">Your name</string>
+    <string name="edit_title_text">Edit  profile</string>
+    <string name="sign_out">Sign out</string>
+    <string name="about_text">Fast and convenient taxi service from Tashkent to the regions and back</string>
+    <string name="notifications_text">Notifications</string>
+</resources>

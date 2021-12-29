@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Pitak</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="Title_language">Выберите удобный для вас язык</string>
+    <string name="language_ru_t">Russian</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_uzb_t">Uzbek</string>
+    <string name="language_uzb">O’zbek(Lotin)</string>
+    <string name="language_eng_t">English</string>
+    <string name="language_eng">Current</string>
+    <string name="language_click_btn">Select and continue</string>
+    <string name="skip_onboard">Пропустить</string>
+    <string name="next_onboard">Далее</string>
+    <string name="click_onboard">Начать</string>
+    <string name="title_authentication">Вход или регистрация</string>
+    <string name="number_authentication">Ваш номер телефона</string>
+    <string name="about_authentication">Мы отправим SMS с кодом подтверждения на ваш номер телефона</string>
+    <string name="click_authentication">Отправить код для входа</string>
+    <string name="title_verify">Подтвердите ваш телефонный номер</string>
+    <string name="code_verify">код подтверждения</string>
+    <string name="about_verify">Введите код подтверждения из SMS отправленный на номер +998 91 123 45 67</string>
+    <string name="reset_verify">Отправить код заново</string>
+    <string name="click_verify">Подтвердить</string>
+    <string name="title_search">title_search</string>
+    <string name="title_orders">title_orders</string>
+    <string name="title_account">title_account</string>
+    <string name="title_messages">title_messages</string>
+    <string name="write_message">write_message</string>
+    <string name="edit_account_btn_text">Изменить профиль</string>
+    <string name="balance_text">Баланс</string>
+    <string name="auto_text">Авто</string>
+    <string name="setting_text">Настройки</string>
+    <string name="about_app_text">О приложении</string>
+    <string name="click_save_edits_text">Сохранить</string>
+    <string name="year_edit_text">день.месяц.год</string>
+    <string name="your_year_hint_text">Дата рождения</string>
+    <string name="number_edit_text">имя</string>
+    <string name="your_number_hint_text">Номер телефона</string>
+    <string name="name_edit_text">имя</string>
+    <string name="your_name_hint_text">Ваше имя</string>
+    <string name="edit_title_text">Изменить профиль</string>
+    <string name="sign_out">Выйти из аккаунта</string>
+    <string name="about_text">Быстрая и удобная служба такси из Ташкента в регионы и обратно</string>
+    <string name="notifications_text">Уведомления</string>
+</resources>
